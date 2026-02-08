@@ -7,9 +7,7 @@ The Android app provides categorized interview questions with a clean Jetpack Co
 - MVVM architecture
 - Categorized interview questions 
 - Expandable Q&A cards 
-- Firebase Authentication (Email/Password + optional Google) 
-- Connects to local or remote backend 
-- Easy to extend with new categories or questions ###
+- Firebase Authentication (Email/Password + Google) 
 
 **Backend Service** 
 - Node.js + Express
@@ -24,7 +22,7 @@ The Android app provides categorized interview questions with a clean Jetpack Co
 In **Firebase Console → Authentication → Sign‑in method**:
 
 - Enable **Email/Password**
-- Enable **Google** (optional)
+- Enable **Google**
 
 ## **1.2 Add `google-services.json` to Android**
 
@@ -70,9 +68,8 @@ npm start
 # 📱 4. Configure Android to Call the Local Backend
 ## Choose the correct base URL
 - If using Android Emulator: http://10.0.2.2:8080/
-- If using a physical device: http://<YOUR_PC_IP>:8080/
-    Ensure phone and PC are on the same Wi‑Fi
-    Find your PC’s local IP: ipconfig
+- If using a physical device: http://<YOUR_PC_IP>:8080/ (Ensure phone and PC are on the same Wi‑Fi).
+- Find your PC’s local IP: ipconfig
 
 # 🔄5. Update Base URL in Android Code
   In Android Studio: Press Ctrl + Shift + F. Search for:127.0.0.1, baseUrl, 8080. Replace with:
