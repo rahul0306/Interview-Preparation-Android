@@ -1,7 +1,8 @@
 # 📱 Interview Preparation – Android + Backend Service A complete Android + Node.js backend project designed to help developers prepare for technical interviews. 
 The Android app provides categorized interview questions with a clean Jetpack Compose UI, while the backend supports AI‑powered features, authentication, OCR, and more.
 
-# 🌟 Features ### **Android App** 
+# 🌟 Features 
+### **Android App** 
 - Jetpack Compose UI (Material 3)
 - MVVM architecture
 - Categorized interview questions 
