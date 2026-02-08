@@ -1,0 +1,30 @@
+{
+  "name": "interview-questions-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "execa": "^9.6.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "firebase-admin": "^13.5.0",
+    "helmet": "^8.1.0",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "openai": "^6.3.0",
+    "pdf-parse": "^2.3.12",
+    "pino": "^10.0.0",
+    "tesseract.js": "^6.0.1",
+    "tmp": "^0.2.5",
+    "zod": "^4.1.12"
+  }
+}
